@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task_20</title>
+	<script src="task_20.js"></script>
+	<style>
+		#chart{
+			display: flex;
+			align-items: flex-end;
+			flex-wrap: wrap;
+		}
+		#chart div{
+			display: inline-block;
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			margin: 5px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<form action="">
+		<input type="text" id="input" placeholder="请输入数字、中文">
+		<input type="button" id="left-in" value="左侧入">
+		<input type="button" id="left-out"value="左侧出">
+		<input type="button" id="right-in" value="右侧入">
+		<input type="button" id="right-out" value="右侧出">
+		<input type="text" id="mySearch" placeholder="请输入查找内容">
+		<input type="button" id="search" value="查询">
+	</form>
+	<section id="chart"></section>
+
+</body>
+</html>
